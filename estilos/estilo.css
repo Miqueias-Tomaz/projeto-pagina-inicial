@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #1c31a5;
+    --cor3: #ffffff7a;
+    --cor4: #00000094;
+}
+
+body {
+    background-image: url(../imagens/fundo001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header > nav > h1 {
+    text-align: center;
+    color: var(--cor1);
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+nav {
+    font-variant: small-caps;
+    background-color: #00000094;
+    padding: 10px 10px 36px 10px;
+    width: 98.5vw;
+    
+}
+
+a {
+    padding: 10px;
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+a:hover {
+    background-color: #ffffff7a;
+    border-radius: 20px;
+}
+
+#cadastro {
+    border: 2px solid var(--cor1);
+    font-weight: bolder;
+}
+
+#cadastro:hover {
+    background-color: #ffffff7a;
+    border-radius: 0%;
+}
+
+main {
+    max-width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+main > h1 {
+    text-align: left;
+    color: var(--cor1);
+    padding-top: 25vh;
+    margin: 10px;
+}
+
+main > p {
+    color: var(--cor1);
+    font-size: 1.6em;
+    font-variant: small-caps;
+    background-color: var(--cor4);
+    padding: 30px 5px;
+    margin: 10px;
+    max-width: 743px;
+    margin-bottom: 30px;
+}
+
+main > a{
+    background-color: var(--cor2);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+main > a:hover {
+    background-color: #0e1852;
+}
+
+#margin {
+    margin-left: 600px;
+}
